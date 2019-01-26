@@ -5,6 +5,8 @@ const request = require('request');
 const jimp = require('jimp');
 const Canvas = require('canvas');
 const fs = require("fs");
+const prefix = "-"
+
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
