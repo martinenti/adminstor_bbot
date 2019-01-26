@@ -10,9 +10,4 @@ client.on('message', msg => {
     msg.reply('Pong!');
   }
 });
-
-
-
-
-
   client.login(process.env.TOKEN);
