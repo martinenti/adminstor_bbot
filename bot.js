@@ -26,7 +26,7 @@ client.on('message', message => {
     if(message.content.startsWith(`${prefix}تحذير`)){
         if(!p) return message.reply(`**منشن العضو!**`);
         if(!reason) return message.reply(`**اختار السبب من 1 الي 9**`);
-        if(!p.bannable) return message.reply(`**لا يمكنني حظر عضو من الادارة
+        if(!p.bannable) return message.reply(`**هذا العضو من فريق الادارة**`);
         reason = reason.replace('0', "**نشر في الخاص**");
         reason = reason.replace('1', "**اسم غير لائق**");
         reason = reason.replace('2', "**صوره غير لائقه**");
