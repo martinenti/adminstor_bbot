@@ -17,8 +17,7 @@ client.on('message', msg => {
 });
 
 
-var Discord = require('discord.js');
-var client = new Discord.Client();
+
 var prefix = "-" ; // البرفكس
  
 var stopReacord = true;
