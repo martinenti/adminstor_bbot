@@ -1,10 +1,4 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const moment = require('moment');
-const request = require('request');
-const jimp = require('jimp');
-const Canvas = require('canvas');
-const fs = require("fs");
+
 
 const Discord = require("discord.js");
 const LOka = new Discord.Client();
